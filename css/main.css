@@ -32,9 +32,11 @@ figure {
 }
 
 .caption {
+  display: block;
   background-color: #e2e2e2;
   position: absolute;
-  font-family: "Georgia", serif;
+  font-family: Georgia, serif;
+  margin-right: 1.3rem;
 }
 
 h2 {
@@ -43,4 +45,41 @@ h2 {
 
 p {
   font-weight: normal;
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  figure {
+    position: relative;
+  }
+
+  .caption {
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, .3);
+    width: 15em;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
 }

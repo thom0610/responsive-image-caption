@@ -16,3 +16,18 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+.caption {
+  background-color: #e2e2e2;
+  position: absolute;
+}

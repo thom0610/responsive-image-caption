@@ -21,6 +21,10 @@ body {
   margin: 0;
 }
 
+figure {
+  margin: 0;
+}
+
 .img-flex {
   display: block;
   width: 100%;
@@ -30,4 +34,13 @@ body {
 .caption {
   background-color: #e2e2e2;
   position: absolute;
+  font-family: "Georgia", serif;
+}
+
+h2 {
+  font-family: "Denk One", sans-serif;
+}
+
+p {
+  font-weight: normal;
 }
